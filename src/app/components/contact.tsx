@@ -55,21 +55,18 @@ export default function ContactComponent() {
             name="name"
             required
             placeholder="Name"
-            required
             className="border-2 w-100 pl-5 pr-5 pt-3 pb-3 bg-white text-black"
           />
           <input
             name="email"
             required
             placeholder="Email"
-            required
             className="border-2 w-100 pl-5 pr-5 pt-3 pb-3 bg-white text-black"
           />
           <textarea
             name="message"
             required
             placeholder="Message"
-            required
             className="border-2 w-100 pl-5 pr-5 pt-3 pb-3 bg-white text-black"
           />
           <div className="">

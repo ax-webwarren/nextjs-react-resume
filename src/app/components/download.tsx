@@ -15,10 +15,10 @@ export default async function DownloadComponent() {
   return (
     <section
       id="download"
-      className="bg-white-700 font-sans p-10 w-auto text-center"
+      className="bg-white-700 w-auto text-center pb-20"
     >
-      <h3 className="text-center text-3xl text-black">Know Me More.</h3>
-      <p className="text-center text-2sm text-black p-5 font-normal">
+      {/* <h3 className="text-center text-3xl text-black">Know Me More.</h3> */}
+      <p className="text-center text-2sm text-black font-normal">
         Download my file to learn more about me.
       </p>
       <a

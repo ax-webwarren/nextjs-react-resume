@@ -12,6 +12,13 @@ import otos from "../../../public/images/otoshealth.png";
 import ibudget from "../../../public/images/ibudget.png";
 import mydental from "../../../public/images/mydentaldocs.png";
 import aqprime from "../../../public/images/aqprime.png";
+import inbetweenLocal from "../../../public/images/inbetween-local.jpg";
+import ssdWeb from "../../../public/images/ssd-web.png";
+import ssdEms from "../../../public/images/ssd-ems.png";
+import ssdOms from "../../../public/images/ssd-oms.png";
+import ssdMobile1 from "../../../public/images/ssd-mobile1.jpg";
+import ssdMobile2 from "../../../public/images/ssd-mobile2.jpg";
+import ssdMobile3 from "../../../public/images/ssd-mobile3.jpg";
 import InnerImageZoom from "react-inner-image-zoom";
 
 export default function ProjectsComponent() {
@@ -25,6 +32,104 @@ export default function ProjectsComponent() {
         Here are some of my latest projects.
       </p>
       <div className="project-list">
+        <article className="text-center p-5">
+          <Image
+            className="mx-auto"
+            src={inbetweenLocal}
+            width={250}
+            height={250}
+            alt="In Between"
+          />
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Tech stack: Flutter
+          </p>
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            In Between Mobile Game - Local Server/Multi Client
+          </p>
+        </article>
+        <article className="text-center p-5">
+          <Image
+            className="mx-auto"
+            src={ssdMobile1}
+            width={250}
+            height={250}
+            alt="SSD Mobile"
+          />
+          <Image
+            className="mx-auto mt-5"
+            src={ssdMobile2}
+            width={250}
+            height={250}
+            alt="SSD Mobile"
+          />
+          <Image
+            className="mx-auto mt-5"
+            src={ssdMobile3}
+            width={250}
+            height={250}
+            alt="SSD Mobile"
+          />
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Tech stack: Flutter/C#.Net Microservices
+          </p>
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Southstar Drug Mobile Ecommerce
+          </p>
+        </article>
+        <article className="text-center p-5">
+          <Image
+            className="mx-auto"
+            src={ssdWeb}
+            width={250}
+            height={250}
+            alt="wdano.dev"
+          />
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Tech stack: NextJS/React/Tailwind/C#.Net Microservices
+          </p>
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Southstar Drug Ecommerce
+          </p>
+          <p className="text-center text-[14px] text-white font-normal underline cursor-pointer">
+            https://southstardrug.com.ph
+          </p>
+        </article>
+        <article className="text-center p-5">
+          <Image
+            className="mx-auto"
+            src={ssdEms}
+            width={250}
+            height={250}
+            alt="SSD Admin"
+          />
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Tech stack: NextJS/React/Tailwind/C#.Net Microservices
+          </p>
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Southstar Drug Ecommerce Admin Panel
+          </p>
+          <p className="text-center text-[14px] text-white font-normal underline cursor-pointer">
+            https://southstardrug.com.ph
+          </p>
+        </article>
+        <article className="text-center p-5">
+          <Image
+            className="mx-auto"
+            src={ssdOms}
+            width={250}
+            height={250}
+            alt="SSD Order Management"
+          />
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Tech stack: NextJS/React/Tailwind/C#.Net Microservices
+          </p>
+          <p className="text-center text-[14px] text-white p-5 pb-0 font-normal">
+            Southstar Drug Ecommerce Order Management
+          </p>
+          <p className="text-center text-[14px] text-white font-normal underline cursor-pointer">
+            https://southstardrug.com.ph
+          </p>
+        </article>
         <article className="text-center p-5">
           <Image
             className="mx-auto"
